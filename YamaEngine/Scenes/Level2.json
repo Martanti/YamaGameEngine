@@ -1,0 +1,400 @@
+{
+    "Entities": [
+        {
+            "Components": [
+                {
+                    "Name": "Object",
+                    "Position": [
+                        8.0,
+                        4.0,
+                        -8.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "Tag": "Extra point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/Extra point.fbx",
+                    "TexturePath": "./Assets/Textures/purple.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        2.0,
+                        2.0,
+                        2.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "score",
+                    "Position": [
+                        -86.0,
+                        -30.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Main point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations":  [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        },
+                        {
+                            "EndFrame": 1625,
+                            "Speed": 200.0,
+                            "Name": "Spin",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/ScorePoint.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Score",
+                    "Position": [
+                        86.0,
+                        38.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Main point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations":  [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        },
+                        {
+                            "EndFrame": 1625,
+                            "Speed": 2000.0,
+                            "Name": "Spin",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/ScorePoint.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Object",
+                    "Position": [
+                        0.0,
+                        -100.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Death",
+                    "Type": "Transform"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1000.0,
+                        1.0,
+                        1000.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Base",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.10000000149011612,
+                        0.009999999776482582,
+                        0.10000000149011612
+                    ],
+                    "Tag": "Floor",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "./Assets/Textures/green.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        10.0,
+                        0.5,
+                        10.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Rotated",
+                    "Position": [
+                        10.0,
+                        2.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -70.0
+                    ],
+                    "Scale": [
+                        0.009999999776482582,
+                        1.0,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Floor",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "./Assets/Textures/green.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        100.0,
+                        3.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Light",
+                    "Position": [
+                        100.0,
+                        300.0,
+                        150.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Untagged",
+                    "Type": "Transform"
+                },
+                {
+                    "AmbientColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "DiffuseColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "LightType": "Point",
+                    "Range": 500.0,
+                    "Type": "Light"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Player",
+                    "Position": [
+                        0.0,
+                        10.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Player",
+                    "Type": "Transform"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        3.0,
+                        3.0,
+                        3.0
+                    ],
+                    "Mass": 1.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                },
+                {
+                    "ScriptContainer": [
+                        "PlayerMovement",
+                        "GameFlowManager",
+                        "ScoreTracker"
+                    ],
+                    "Type": "Script"
+                },
+                {
+                    "CamType": "FPS",
+                    "Offset": [
+                        0.0,
+                        3.0,
+                        0.0
+                    ],
+                    "Type": "Camera"
+                },
+                {
+                    "Sources": [
+                        {
+                            "Name": "Ping",
+                            "Path": "./Assets/Audio/ping.mp3"
+                        }
+                    ],
+                    "Type": "Audio"
+                }
+            ]
+        }
+    ]
+}

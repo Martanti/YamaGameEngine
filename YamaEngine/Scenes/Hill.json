@@ -1,0 +1,190 @@
+{
+    "Entities": [
+        {
+            "Components": [
+                {
+                    "Name": "Player",
+                    "Position": [
+                        0.0,
+                        10.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Player",
+                    "Type": "Transform"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        3.0,
+                        3.0,
+                        3.0
+                    ],
+                    "Mass": 1.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                },
+                {
+                    "ScriptContainer": [
+                        "PlayerMovement",
+						"GameFlowManager"
+                    ],
+                    "Type": "Script"
+                },
+                {
+                    "CamType": "FPS",
+                    "Offset": [
+                        0.0,
+                        3.0,
+                        0.0
+                    ],
+                    "Type": "Camera"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Light",
+                    "Position": [
+                        100.0,
+                        100.0,
+                        100.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Untagged",
+                    "Type": "Transform"
+                },
+                {
+                    "AmbientColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "DiffuseColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "LightType": "Point",
+                    "Range": 500.0,
+                    "Type": "Light"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Rotated",
+                    "Position": [
+                        10.0,
+                        2.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -70.0
+                    ],
+                    "Scale": [
+                        0.009999999776482582,
+                        1.0,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Floor",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        100,
+                        3.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Base",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.10000000149011612,
+                        0.009999999776482582,
+                        0.10000000149011612
+                    ],
+                    "Tag": "Floor",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        10.0,
+                        0.5,
+                        10.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        }
+    ]
+}

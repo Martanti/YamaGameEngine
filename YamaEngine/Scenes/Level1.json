@@ -1,0 +1,596 @@
+{
+    "Entities": [
+        {
+            "Components": [
+                {
+                    "Name": "Death floor",
+                    "Position": [
+                        0.0,
+                        -50.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Death",
+                    "Type": "Transform"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1000.0,
+                        1.0,
+                        1000.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Point",
+                    "Position": [
+                        -23.0,
+                        3.0,
+                        23.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Main point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/ScorePoint.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Extra score",
+                    "Position": [
+                        25.0,
+                        5.0,
+                        25.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "Tag": "Extra point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/extra point.fbx",
+                    "TexturePath": "./Assets/Textures/purple.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        3.0,
+                        3.0,
+                        3.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Reactive demo",
+                    "Position": [
+                        20.0,
+                        3.0,
+                        -20.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.009999999776482582,
+                        0.009999999776482582,
+                        0.009999999776482582
+                    ],
+                    "Tag": "Friend",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": [
+                        {
+                            "EndFrame": 1600,
+                            "Speed": 100.0,
+                            "Name": "Boing",
+                            "StartFrame": 1
+                        },
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/sphere.fbx",
+                    "TexturePath": "./Assets/Textures/Blue.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                },
+                {
+                    "ScriptContainer": [
+                        "Reactive"
+                    ],
+                    "Type": "Script"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Light2",
+                    "Position": [
+                        -100.0,
+                        200.0,
+                        -100.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Light",
+                    "Type": "Transform"
+                },
+                {
+                    "AmbientColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "DiffuseColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "LightType": "Point",
+                    "Range": 800.0,
+                    "Type": "Light"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Light1",
+                    "Position": [
+                        0.0,
+                        200.0,
+                        100.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Light",
+                    "Type": "Transform"
+                },
+                {
+                    "AmbientColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "DiffuseColour": [
+                        0.800000011920929,
+                        0.800000011920929,
+                        0.800000011920929,
+                        1.0
+                    ],
+                    "LightType": "Point",
+                    "Range": 800.0,
+                    "Type": "Light"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Object",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.30000001192092896,
+                        0.009999999776482582,
+                        0.30000001192092896
+                    ],
+                    "Tag": "Floor",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "./Assets/Textures/green.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        30.0,
+                        0.5,
+                        30.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Score1",
+                    "Position": [
+                        -10.0,
+                        5.0,
+                        -23.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Main point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        },
+                        {
+                            "EndFrame": 1625,
+                            "Speed": 2000.0,
+                            "Name": "Spin",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/ScorePoint.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Score",
+                    "Position": [
+                        10.0,
+                        5.0,
+                        10.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.05000000074505806,
+                        0.05000000074505806,
+                        0.05000000074505806
+                    ],
+                    "Tag": "Main point",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        },
+                        {
+                            "EndFrame": 1625,
+                            "Speed": 300.0,
+                            "Name": "Spin",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/ScorePoint.fbx",
+                    "TexturePath": "./Assets/Textures/yellow.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 1.0,
+                    "Offset": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Player",
+                    "Position": [
+                        0.0,
+                        10.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.009999999776482582,
+                        0.009999999776482582,
+                        0.009999999776482582
+                    ],
+                    "Tag": "Player",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": [
+                        {
+                            "EndFrame": 0,
+                            "Speed": 0.0,
+                            "Name": "Still",
+                            "StartFrame": 0
+                        }
+                    ],
+                    "Path": "./Assets/Models/cube.fbx",
+                    "TexturePath": "./Assets/Textures/red.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 1.0,
+                    "Offset": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                },
+                {
+                    "ScriptContainer": [
+                        "PlayerMovement",
+                        "GameFlowManager",
+                        "ScoreTracker"
+                    ],
+                    "Type": "Script"
+                },
+                {
+                    "Sources": [
+                        {
+                            "Name": "Ping",
+                            "Path": "./Assets/Audio/ping.mp3"
+                        }
+                    ],
+                    "Type": "Audio"
+                },
+                {
+                    "CamType": "FPS",
+                    "Offset": [
+                        0.0,
+                        1.0,
+                        0.0
+                    ],
+                    "Type": "Camera"
+                }
+            ]
+        },
+        {
+            "Components": [
+                {
+                    "Name": "Zombie",
+                    "Position": [
+                        10.0,
+                        3.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        0.009999999776482582,
+                        0.009999999776482582,
+                        0.009999999776482582
+                    ],
+                    "Tag": "Death",
+                    "Type": "Transform"
+                },
+                {
+                    "Animations": null,
+                    "Path": "./Assets/Models/enemy.fbx",
+                    "TexturePath": "./Assets/Textures/red.bmp",
+                    "Type": "Mesh"
+                },
+                {
+                    "ColliderType": "Box",
+                    "Extents": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Mass": 0.0,
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Type": "Physics"
+                },
+                {
+                    "ScriptContainer": [
+                        "AIWalker"
+                    ],
+                    "Type": "Script"
+                },
+                {
+                    "Points": [
+                        [
+                            10.0,
+                            3.0,
+                            0.0
+                        ],
+                        [
+                            10.0,
+                            3.0,
+                            10.0
+                        ],
+                        [
+                            -10.0,
+                            3.0,
+                            10.0
+                        ]
+                    ],
+                    "Type": "AINavigation"
+                }
+            ]
+        }
+    ]
+}

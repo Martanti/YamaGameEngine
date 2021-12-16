@@ -1,0 +1,10 @@
+3D engine - Irrlicht https://irrlicht.sourceforge.io/ (With some slight modifications (used auto in some places) in order to be used with modules)
+Logging - loguru https://github.com/emilk/loguru (Uses _CRT_SECURE_NO_WARNINGS)
+ECS - Entt https://github.com/skypjack/entt
+Input - Irrlicht as a separate module
+UI - Imgui https://github.com/ocornut/imgui/ with the help of  IrrImgui https://github.com/ZahlGraf/IrrIMGUI
+Physics - Bullet https://github.com/bulletphysics/bullet3
+JSON parser/generator - Json for moder c++ https://github.com/nlohmann/json
+Audio - ASS https://github.com/fungos/ass (Modified line 23143 as it was giving errors for conversion)
+Mesh loading - Assimp (https://github.com/assimp/assimp) with the help from IrrAssimp (https://github.com/JLouis-B/IrrAssimp)
+CURL requests - CURLPP (https://github.com/jpbarrette/curlpp) requires Curl to be present on the system

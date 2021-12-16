@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{8bcfae9f-05eb-4cdf-aad0-b22bb6cf8aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Misc">
+      <UniqueIdentifier>{a7fec227-b96f-434b-b9c2-52b7e7ee980b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Wrappers">
+      <UniqueIdentifier>{c465422d-1a86-47cd-bbe1-f0eefa31a57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Components">
+      <UniqueIdentifier>{2da706d7-a38d-432f-8c02-8fa8fcf88fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\GameLogicScripts">
+      <UniqueIdentifier>{39576f06-c6c0-40e3-8b00-fb32016a382b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IrrAssimp">
+      <UniqueIdentifier>{f9d2bdf1-a3a4-4c5e-8a64-d5e3704b99ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IrrAssimp">
+      <UniqueIdentifier>{c5f5d2c4-43c5-457b-9215-a7bdb5e12f50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\main.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loguru\loguru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GameEngine.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Transform.ixx">
+      <Filter>Modules\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\PhysicsComponents.ixx">
+      <Filter>Modules\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\LoggerWrapper.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GraphicsComponents.ixx">
+      <Filter>Modules\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GraphicsWrapper.ixx">
+      <Filter>Modules\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\InputWrapper.ixx">
+      <Filter>Modules\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\MenuWrapper.ixx">
+      <Filter>Modules\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\PhysicsWrapper.ixx">
+      <Filter>Modules\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Initializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Editor.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SceneFileExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\EditorComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Scene.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GameLogic.ixx">
+      <Filter>Modules\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GameScriptBase.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\PlayerMovement.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\AudioWrapper.ixx">
+      <Filter>Modules\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrAssimp\IrrAssimp\IrrAssimp.cpp">
+      <Filter>Source Files\IrrAssimp</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrAssimp\IrrAssimp\IrrAssimpExport.cpp">
+      <Filter>Source Files\IrrAssimp</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrAssimp\IrrAssimp\IrrAssimpImport.cpp">
+      <Filter>Source Files\IrrAssimp</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrAssimp\IrrAssimp\IrrAssimpUtils.cpp">
+      <Filter>Source Files\IrrAssimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\YaMath.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HighscoreWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Event.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\GameFlowManager.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\PlayerScoreTracker.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\MainMenu.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\DataVault.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ScoreSubmission.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\HighScoreEntity.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\AIWalker.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\BeaconNavigation.ixx">
+      <Filter>Modules\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Profiling.ixx">
+      <Filter>Modules\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ReactiveElement.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\EditorCamera.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\SceneEditor.ixx">
+      <Filter>Modules\GameLogicScripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Initializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SceneFileExporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\EditorComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrAssimp\IrrAssimp\IrrAssimp.h">
+      <Filter>Header Files\IrrAssimp</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrAssimp\IrrAssimp\IrrAssimpExport.h">
+      <Filter>Header Files\IrrAssimp</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrAssimp\IrrAssimp\IrrAssimpImport.h">
+      <Filter>Header Files\IrrAssimp</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrAssimp\IrrAssimp\IrrAssimpUtils.h">
+      <Filter>Header Files\IrrAssimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HighscoreWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="yamaConfig.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

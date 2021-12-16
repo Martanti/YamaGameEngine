@@ -1,0 +1,35 @@
+{
+    "Entities": [
+        {
+            "Components": [
+                {
+                    "Name": "MainMenuController",
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "Scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Tag": "Untagged",
+                    "Type": "Transform"
+                },
+                {
+                    "ScriptContainer": [
+                        "MainMenu",
+						"GameFlowManager"
+                    ],
+                    "Type": "Script"
+                }
+            ]
+        }
+    ]
+}
